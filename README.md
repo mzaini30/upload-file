@@ -27,3 +27,7 @@ Password: admin
 ## Variabel yang harus disetting kalau mau diupload ke server
 
 - pug/beranda.coffee (variabel situs)
+
+## Kekurangan
+
+- File PHP masih bisa dieksekusi (shell script)
