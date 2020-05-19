@@ -12,6 +12,12 @@ npm i
 ## Menjalankan website
 
 ```bash
+php -S localhost:2020
+```
+
+Kalau mode dev:
+
+```bash
 bash dev.sh
 ```
 
