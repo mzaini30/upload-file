@@ -1,0 +1,41 @@
+extends base.pug
+
+block isi
+	.container
+		center 
+			h1 Upload file
+			hr 
+		.row
+			.col-sm-3
+				.panel.panel-default
+					.panel-heading Upload file
+					.panel-body
+						.form-group
+							.btn.btn-default.browse Browse
+							| &nbsp;
+							.btn.btn-info.upload Upload
+						.form-group
+							.progress
+								.progress-bar.progress-upload
+						.form-group
+							.alert.alert-warning.info-file
+				.from-group
+					a.btn.btn-warning(href='/logout.php') Keluar
+			.col-sm-9
+				table.table.table-bordered
+					thead 
+						tr 
+							th Nama file
+							th Link download
+							th 
+					tbody.isinya
+
+block xjs
+	script(src='/lib/jquery/jquery.min.js')
+	script(src='/node_modules/@flowjs/flow.js/dist/flow.min.js')
+
+block js
+	include:uglify-js:coffee-script(bare=true) beranda.coffee
+
+block css
+	include:uglify-css:stylus beranda.stylus

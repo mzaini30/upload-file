@@ -1,0 +1,16 @@
+extends base.pug
+
+block isi
+	.container
+		center 
+			h1 Login
+			hr 
+		form.login(method='post')
+			.form-group
+				label Username
+				input.form-control(name='username')
+			.form-group
+				label Password
+				input.form-control(name='password' type='password')
+			.form-group
+				input.btn.btn-default(type='submit' value='Login')

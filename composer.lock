@@ -1,0 +1,139 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0357c4f8dd3f16bc04fbbd4f4531dc42",
+    "packages": [
+        {
+            "name": "flowjs/flow-php-server",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/flowjs/flow-php-server.git",
+                "reference": "c6802bf7c68fe8d1e19b60e484bf08f838861728"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/flowjs/flow-php-server/zipball/c6802bf7c68fe8d1e19b60e484bf08f838861728",
+                "reference": "c6802bf7c68fe8d1e19b60e484bf08f838861728",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "dev-master",
+                "league/phpunit-coverage-listener": "~1.1",
+                "mikey179/vfsstream": "v1.2.0",
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Flow": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aidas Klimas",
+                    "email": "aidaskk@gmail.com"
+                }
+            ],
+            "description": "PHP library for handling chunk uploads. Works with flow.js html5 file uploads.",
+            "keywords": [
+                "chunks",
+                "file upload",
+                "flow",
+                "flow.js",
+                "html5 file upload",
+                "resumable",
+                "resumable.js",
+                "upload"
+            ],
+            "time": "2017-04-22T08:41:31+00:00"
+        },
+        {
+            "name": "pecee/pixie",
+            "version": "4.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/skipperbent/pecee-pixie.git",
+                "reference": "9c66de8a19c5bec476f09f972b2350e58b01b1a2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/skipperbent/pecee-pixie/zipball/9c66de8a19c5bec476f09f972b2350e58b01b1a2",
+                "reference": "9c66de8a19c5bec476f09f972b2350e58b01b1a2",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "ext-pdo_sqlite": "*",
+                "mockery/mockery": "^1",
+                "phpunit/phpunit": "^6.0"
+            },
+            "suggest": {
+                "ext-pdo_sqlite": "Add extension for SQLite support"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Pecee\\Pixie\\": "src/Pecee/Pixie/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Muhammad Usman",
+                    "email": "hi@usman.it",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Pavel Puchkin",
+                    "email": "i@neoascetic.me",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Simon Sessingø",
+                    "email": "simon.sessingoe@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Lightweight, fast query-builder for PHP based on Laravel Eloquent but with less overhead.",
+            "homepage": "https://github.com/skipperbent/pecee-pixie",
+            "keywords": [
+                "database",
+                "eloquent",
+                "mysql",
+                "pecee",
+                "pixie",
+                "postgresql",
+                "query builder",
+                "querybuilder",
+                "sql",
+                "sqlite"
+            ],
+            "time": "2018-09-06T10:21:24+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

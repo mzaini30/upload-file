@@ -1,0 +1,1 @@
+bash app/php.sh & bash app/pug.sh

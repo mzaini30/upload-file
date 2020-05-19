@@ -1,0 +1,13 @@
+{
+    "name": "mzaini30/file",
+    "authors": [
+        {
+            "name": "mzaini30",
+            "email": "muhzaini30@gmail.com"
+        }
+    ],
+    "require": {
+        "pecee/pixie": "^4.11",
+        "flowjs/flow-php-server": "^1.0"
+    }
+}
