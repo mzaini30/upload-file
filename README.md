@@ -9,6 +9,14 @@ composer update
 npm i 
 ```
 
+## Menjalankan website
+
+```bash
+bash dev.sh
+```
+
+Nanti linknya: `localhost:2020`.
+
 ## Username dan password
 
 ```
